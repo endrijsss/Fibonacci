@@ -26,7 +26,7 @@ while not Check:
         x = int(input("Enter how many Fibonacci sequence numbers you want to display = "))
         Check = True
     except:
-        print("That's not a number you dummy!")
+        print("That's not a number you dummy! Please try again.")
 # output command
 fibo(x)
 
