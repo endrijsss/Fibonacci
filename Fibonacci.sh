@@ -1,17 +1,12 @@
-#!/bin/bash
-
-# Program for Fibonacci
-# Series
+# Program that displays Fibonacci sequence numbers
 
 # Static input fo N
-N=6
+N=20
 
-# First Number of the
-# Fibonacci Series
+# First Number of Fibonacci Series
 a=0
 
-# Second Number of the
-# Fibonacci Series
+# Second Number of Fibonacci Series
 b=1
 echo "The Fibonacci series is : "
 
@@ -21,5 +16,6 @@ do
 	fn=$((a+b))
 	a=$b
 	b=$fn
+
 done
 # End of for loop
