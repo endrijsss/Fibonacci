@@ -1,7 +1,8 @@
 # Program that displays Fibonacci sequence numbers
 
 # Static input fo N
-N=20
+echo "How many numbers of Fibonacci sequence do you want to see? :"
+read N
 
 # First Number of Fibonacci Series
 a=0
